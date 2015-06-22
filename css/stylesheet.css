@@ -1,3 +1,22 @@
 body {
     font-size:16px;
 }
+
+.placeholders {
+    margin:0 auto;
+
+}
+
+.total-calls-placeholder {
+    border:solid 1px blue;
+    width:250px;
+    height:250px;
+    margin:0 auto;
+}
+
+.total-sales-placeholder {
+    border:solid 1px blue;
+    width:250px;
+    height:250px;
+    margin:0 auto;
+}
