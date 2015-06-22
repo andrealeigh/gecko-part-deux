@@ -2,19 +2,101 @@ body {
     font-size:16px;
 }
 
-.placeholders {
+.top-row {
+    display:inline-block;
     margin:0 auto;
-
+}
+.completed-dev-projects {
+    display:block;
+    border:solid 1px blue;
+    float:left;
+    width:250px;
+    height:250px;
+    margin:0 auto;
 }
 
-.total-calls-placeholder {
+.important-dates {
+    display:block;
+    border:solid 1px blue;
+    float:left;
+    width:250px;
+    height:250px;
+    margin:0 auto;
+}
+
+.revenue {
+    display:block;
+    float:left;
     border:solid 1px blue;
     width:250px;
     height:250px;
     margin:0 auto;
 }
 
+.placeholders {
+    display:inline-block;
+    margin:0 auto;
+}
+
+.total-calls-placeholder {
+    border:solid 1px blue;
+    float:left;
+    width:250px;
+    height:250px;
+    margin:0 auto;
+}
+
 .total-sales-placeholder {
+    border:solid 1px blue;
+    float:left;
+    width:250px;
+    height:250px;
+    margin:0 auto;
+}
+
+.bottom-row {
+    display:inline-block;
+    margin:0 auto;
+}
+.coaching-students {
+    display:block;
+    border:solid 1px blue;
+    float:left;
+    width:250px;
+    height:250px;
+    margin:0 auto;
+}
+
+.stagnant-students {
+    display:block;
+    border:solid 1px blue;
+    float:left;
+    width:250px;
+    height:250px;
+    margin:0 auto;
+}
+
+.coach-load {
+    display:block;
+    float:left;
+    border:solid 1px blue;
+    width:250px;
+    height:250px;
+    margin:0 auto;
+}
+
+.effort-grade {
+    display:block;
+    float:left;
+    border:solid 1px blue;
+    width:250px;
+    height:250px;
+    margin:0 auto;
+}
+
+.happiness-number {
+    display:block;
+    float:left;
     border:solid 1px blue;
     width:250px;
     height:250px;
