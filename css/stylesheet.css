@@ -46,6 +46,33 @@ body {
     margin:0 auto;
 }
 
+.gauge-calls {
+    height:90px;
+    width:180px;
+    border-radius: 120px 120px 0 0;
+    border: solid 9px blue;
+    border-bottom: none;
+    margin:0 auto;
+}
+
+.gauge-sales {
+    height:90px;
+    width:180px;
+    border-radius: 120px 120px 0 0;
+    border: solid 9px blue;
+    border-bottom: none;
+    margin:0 auto;
+}
+
+.gauge-arrow {
+    background-color:blue;
+    border-radius:90px 90px 90px 90px;
+    height:25px;
+    margin:0 auto;
+    width:25px;
+}
+
+
 .total-sales-placeholder {
     border:solid 1px blue;
     float:left;
