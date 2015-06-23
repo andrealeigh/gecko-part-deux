@@ -74,22 +74,26 @@ h1, h3 {
     margin:0 auto;
 }
 
-.gauge {
-    /*display:flex;*/
-}
-
-.gauge-base {
+.gauge-stylus {
     background-color:blue;
     border-radius:90px 90px 90px 90px;
     height:25px;
     margin:0 auto;
+    position: relative;
     width:25px;
 }
 
-.gauge-stylus {
-    width:25px;
-    border:solid 3px blue;
+.gauge-stylus:before {
+   content:"";
+   position: absolute;
+   right: 100%;
+   width: 0;
+   height: 0;
+   border-top: 13px solid transparent;
+   border-right: 105px solid red;
+   border-bottom: 13px solid transparent;
 }
+
 
 .sales-breakdown {
     align-items:flex-start;
