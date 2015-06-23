@@ -91,12 +91,21 @@ h1, h3 {
     margin:0 auto;
 }
 
-.gauge-arrow {
+.gauge {
+    /*display:flex;*/
+}
+
+.gauge-base {
     background-color:blue;
     border-radius:90px 90px 90px 90px;
     height:25px;
     margin:0 auto;
     width:25px;
+}
+
+.gauge-stylus {
+    width:25px;
+    border:solid 3px blue;
 }
 
 .sales-breakdown {
