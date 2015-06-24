@@ -23,12 +23,12 @@ h1, h3 {
     width:25%;
 }
 
-.important-dates {
-    display:block;
+.testive-logo {
     border:solid 1px blue;
-    float:left;
     height:250px;
+
 }
+
 
 .revenue {
     display:block;
@@ -53,6 +53,10 @@ h1, h3 {
     display:flex;
     flex-direction:row;
     justify-content:center;
+}
+
+.important-dates {
+    border:solid 1px blue;
 }
 
 .total-calls-placeholder {
@@ -120,6 +124,9 @@ h1, h3 {
 }
 
 .facebook-numbers {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width:100px;
     height:100px;
     border-radius:50%;
@@ -133,6 +140,9 @@ h1, h3 {
 }
 
 .organic-numbers {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width:100px;
     height:100px;
     border-radius:50%;
@@ -146,6 +156,9 @@ h1, h3 {
 }
 
 .promo-numbers {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width:100px;
     height:100px;
     border-radius:50%;
@@ -159,6 +172,9 @@ h1, h3 {
 }
 
 .modal-numbers {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width:100px;
     height:100px;
     border-radius:50%;
