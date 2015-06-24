@@ -18,6 +18,7 @@ h1, h2, h3 {
 }
 
 .left-column {
+    align-self: center;
     display:flex;
     flex-direction:column;
     justify-content:center;
@@ -38,11 +39,9 @@ h1, h2, h3 {
     margin:0 auto;
 }
 
-
 .revenue {
     display:block;
     padding:15px 0;
-    /*height:250px;*/
 }
 
 .revenue-numbers {
@@ -61,8 +60,7 @@ h1, h2, h3 {
 
 .happiness {
     display:block;
-    padding:15px 0 25px 0;
-    /*height:250px;*/
+    padding:15px 0;
 }
 
 .happiness-numbers {
@@ -229,6 +227,7 @@ h1, h2, h3 {
 }
 
 .right-column {
+    align-self: center;
     display:flex;
     flex-direction:column;
     justify-content:center;
@@ -237,7 +236,7 @@ h1, h2, h3 {
 .coaching-students {
     display:block;
     float:left;
-    height:250px;
+    padding:15px 0;
 }
 
 .coaching-students-numbers {
@@ -257,7 +256,7 @@ h1, h2, h3 {
 .coach-load {
     display:block;
     float:left;
-    height:250px;
+    padding:15px 0;
 }
 
 .coach-load-numbers {
@@ -277,7 +276,7 @@ h1, h2, h3 {
 .effort-grade {
     display:block;
     float:left;
-    height:250px;
+    padding:15px 0;
 }
 
 .effort-grade-numbers {
