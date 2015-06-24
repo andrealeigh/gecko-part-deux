@@ -10,12 +10,14 @@ h1, h3 {
     align-items:flex-start;
     display:flex;
     flex-direction:row;
+    width:100%;
 }
 
 .left-column {
     display:flex;
     flex-direction:column;
     justify-content:center;
+    width:25%;
 }
 
 .important-dates {
@@ -36,6 +38,7 @@ h1, h3 {
 
 .middle-column-wrapper{
     flex-direction:column;
+    width:50%;
 }
 
 .middle-column {
@@ -137,6 +140,7 @@ h1, h3 {
     display:flex;
     flex-direction:column;
     justify-content:center;
+    width:25%;
 }
 .coaching-students {
     display:block;
