@@ -1,4 +1,5 @@
 body {
+    color: #2c3e50;
     font-family: 'robotolight';
     font-size:16px;
     margin:5% 10%;
@@ -50,6 +51,7 @@ h1, h3 {
 }
 
 .middle-column {
+    background-color: #1abc9c;
     display:flex;
     flex-direction:row;
     justify-content:center;
@@ -60,37 +62,37 @@ h1, h3 {
 }
 
 .total-calls-placeholder {
-    border:solid 1px blue;
+    color:white;
+    margin:5%;
     width:480px;
-    height:400px;
 }
 
 .total-sales-placeholder {
-    border:solid 1px blue;
+    color:white;
+    margin:5%;
     width:480px;
-    height:400px;
 }
 
 .gauge-calls {
-    height:90px;
-    width:180px;
-    border-radius: 120px 120px 0 0;
-    border: solid 9px blue;
+    height: 125px;
+    width: 240px;
+    border-radius: 180px 180px 0 0;
+    border: solid 10px white;
     border-bottom: none;
     margin:0 auto;
 }
 
 .gauge-sales {
-    height:90px;
-    width:180px;
-    border-radius: 120px 120px 0 0;
-    border: solid 9px blue;
+    height: 125px;
+    width: 240px;
+    border-radius: 180px 180px 0 0;
+    border: solid 10px white;
     border-bottom: none;
     margin:0 auto;
 }
 
 .gauge-stylus {
-    background-color:blue;
+    background-color:white;
     border-radius:90px 90px 90px 90px;
     height:25px;
     margin:0 auto;
@@ -105,14 +107,13 @@ h1, h3 {
    width: 0;
    height: 0;
    border-top: 13px solid transparent;
-   border-right: 105px solid red;
+   border-right: 105px solid white;
    border-bottom: 13px solid transparent;
 }
 
 
 .sales-breakdown {
     flex-direction:row;
-    border:solid 1px blue;
     display:flex;
     justify-content: space-between;
     padding: 2% 15%;
@@ -124,13 +125,15 @@ h1, h3 {
 }
 
 .facebook-numbers {
+    background-color: #f58b1e;
+    color: white;
     display: flex;
     justify-content: center;
     align-items: center;
+    font-size: 40px;
     width:100px;
     height:100px;
     border-radius:50%;
-    border:solid 1px blue;
     margin:0 auto;
 }
 
@@ -140,13 +143,15 @@ h1, h3 {
 }
 
 .organic-numbers {
+    background-color: #f58b1e;
+    color: white;
     display: flex;
     justify-content: center;
     align-items: center;
     width:100px;
     height:100px;
+    font-size: 40px;
     border-radius:50%;
-    border:solid 1px blue;
     margin:0 auto;
 }
 
@@ -156,13 +161,15 @@ h1, h3 {
 }
 
 .promo-numbers {
+    background-color: #f58b1e;
+    color: white;
     display: flex;
     justify-content: center;
     align-items: center;
     width:100px;
     height:100px;
+    font-size: 40px;
     border-radius:50%;
-    border:solid 1px blue;
     margin:0 auto;
 }
 
@@ -172,13 +179,15 @@ h1, h3 {
 }
 
 .modal-numbers {
+    background-color: #f58b1e;
+    color: white;
     display: flex;
     justify-content: center;
     align-items: center;
+    font-size: 40px;
     width:100px;
     height:100px;
     border-radius:50%;
-    border:solid 1px blue;
     margin:0 auto;
 }
 
