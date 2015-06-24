@@ -20,7 +20,7 @@ h1, h3 {
     display:flex;
     flex-direction:column;
     justify-content:center;
-    width:25%;
+    width:20%;
 }
 
 .testive-logo {
@@ -46,7 +46,7 @@ h1, h3 {
 
 .middle-column-wrapper{
     flex-direction:column;
-    width:50%;
+    width:60%;
 }
 
 .middle-column {
@@ -186,7 +186,7 @@ h1, h3 {
     display:flex;
     flex-direction:column;
     justify-content:center;
-    width:25%;
+    width:20%;
 }
 .coaching-students {
     display:block;
