@@ -1,9 +1,12 @@
 body {
     font-size:16px;
+    margin:5% 10%;
 }
 
 h1, h3 {
     text-align:center;
+    margin:0 0 15px 0;
+
 }
 
 .all-columns {
@@ -24,7 +27,6 @@ h1, h3 {
     display:block;
     border:solid 1px blue;
     float:left;
-    width:250px;
     height:250px;
 }
 
@@ -32,7 +34,13 @@ h1, h3 {
     display:block;
     float:left;
     border:solid 1px blue;
-    width:250px;
+    height:250px;
+}
+
+.happiness-number {
+    display:block;
+    float:left;
+    border:solid 1px blue;
     height:250px;
 }
 
@@ -99,12 +107,19 @@ h1, h3 {
 
 
 .sales-breakdown {
-    align-items:flex-start;
+    flex-direction:row;
     border:solid 1px blue;
     display:flex;
+    justify-content: space-between;
+    padding: 2% 15%;
 }
 
-.facebook {
+.facebook-column {
+    display:flex;
+    flex-direction:column;
+}
+
+.facebook-numbers {
     width:100px;
     height:100px;
     border-radius:50%;
@@ -112,7 +127,12 @@ h1, h3 {
     margin:0 auto;
 }
 
-.organic {
+.organic-column {
+    display:flex;
+    flex-direction:column;
+}
+
+.organic-numbers {
     width:100px;
     height:100px;
     border-radius:50%;
@@ -120,7 +140,12 @@ h1, h3 {
     margin:0 auto;
 }
 
-.promo {
+.promo-column {
+    display:flex;
+    flex-direction:column;
+}
+
+.promo-numbers {
     width:100px;
     height:100px;
     border-radius:50%;
@@ -146,7 +171,6 @@ h1, h3 {
     display:block;
     border:solid 1px blue;
     float:left;
-    width:250px;
     height:250px;
 }
 
@@ -154,7 +178,6 @@ h1, h3 {
     display:block;
     float:left;
     border:solid 1px blue;
-    width:250px;
     height:250px;
 }
 
@@ -162,14 +185,5 @@ h1, h3 {
     display:block;
     float:left;
     border:solid 1px blue;
-    width:250px;
-    height:250px;
-}
-
-.happiness-number {
-    display:block;
-    float:left;
-    border:solid 1px blue;
-    width:250px;
     height:250px;
 }
