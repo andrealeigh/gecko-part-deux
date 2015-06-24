@@ -18,6 +18,7 @@ h1, h2, h3 {
 }
 
 .left-column {
+    border-right: solid 4px #1abc9c;
     display:flex;
     flex-direction:column;
     justify-content:center;
@@ -25,7 +26,6 @@ h1, h2, h3 {
 }
 
 .testive-logo {
-    border:solid 1px blue;
     height:250px;
 }
 
@@ -36,9 +36,8 @@ img {
 
 .revenue {
     display:block;
-    float:left;
-    border:solid 1px blue;
-    height:250px;
+    padding:15px 0;
+    /*height:250px;*/
 }
 
 .revenue-numbers {
@@ -56,9 +55,8 @@ img {
 
 .happiness {
     display:block;
-    float:left;
-    border:solid 1px blue;
-    height:250px;
+    padding:15px 0 25px 0;
+    /*height:250px;*/
 }
 
 .happiness-numbers {
@@ -87,7 +85,6 @@ img {
 }
 
 .important-dates {
-    border:solid 1px blue;
 }
 
 .total-calls-placeholder {
@@ -221,6 +218,7 @@ img {
 }
 
 .right-column {
+    border-left:solid 4px #1abc9c;
     display:flex;
     flex-direction:column;
     justify-content:center;
@@ -228,7 +226,6 @@ img {
 }
 .coaching-students {
     display:block;
-    border:solid 1px blue;
     float:left;
     height:250px;
 }
@@ -249,7 +246,6 @@ img {
 .coach-load {
     display:block;
     float:left;
-    border:solid 1px blue;
     height:250px;
 }
 
@@ -269,7 +265,6 @@ img {
 .effort-grade {
     display:block;
     float:left;
-    border:solid 1px blue;
     height:250px;
 }
 
