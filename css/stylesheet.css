@@ -29,7 +29,6 @@ h1, h3 {
 
 }
 
-
 .revenue {
     display:block;
     float:left;
@@ -57,6 +56,10 @@ h1, h3 {
 
 .important-dates {
     border:solid 1px blue;
+}
+
+.important-dates table td {
+    border-bottom:1px solid #000;
 }
 
 .total-calls-placeholder {
