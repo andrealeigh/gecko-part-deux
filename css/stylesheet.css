@@ -41,11 +41,37 @@ img {
     height:250px;
 }
 
-.happiness-number {
+.revenue-numbers {
+    background-color: #f58b1e;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    width:150px;
+    height:150px;
+    border-radius:50%;
+    margin:0 auto;
+}
+
+.happiness {
     display:block;
     float:left;
     border:solid 1px blue;
     height:250px;
+}
+
+.happiness-numbers {
+    background-color: #f58b1e;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    width:150px;
+    height:150px;
+    border-radius:50%;
+    margin:0 auto;
 }
 
 .middle-column-wrapper{
@@ -207,6 +233,19 @@ img {
     height:250px;
 }
 
+.coaching-students-numbers {
+    background-color: #f58b1e;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    width:150px;
+    height:150px;
+    border-radius:50%;
+    margin:0 auto;
+}
+
 .coach-load {
     display:block;
     float:left;
@@ -214,9 +253,35 @@ img {
     height:250px;
 }
 
+.coach-load-numbers {
+    background-color: #f58b1e;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    width:150px;
+    height:150px;
+    border-radius:50%;
+    margin:0 auto;
+}
+
 .effort-grade {
     display:block;
     float:left;
     border:solid 1px blue;
     height:250px;
+}
+
+.effort-grade-numbers {
+    background-color: #f58b1e;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    width:150px;
+    height:150px;
+    border-radius:50%;
+    margin:0 auto;
 }
