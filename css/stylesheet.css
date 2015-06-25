@@ -87,7 +87,7 @@ h1, h2, h3, h4 {
 
 .calls-header {
     background-color: #1abc9c;
-    color:white;
+    color:#2B0AC5;
     font-family: 'robotoblack';
     padding:10px 0;
 }
@@ -134,18 +134,9 @@ h1, h2, h3, h4 {
 }
 
 .gauge-bottom-row {
+    align-items: center;
     display:flex;
     flex-direction:row;
-    margin-top:10px;
-}
-
-.gauge-stylus {
-    background-color:white;
-    border-radius:90px 90px 90px 90px;
-    height:25px;
-    margin:0 auto;
-    position: relative;
-    width:25px;
 }
 
 .number-left {
@@ -153,23 +144,37 @@ h1, h2, h3, h4 {
     margin-left: 9%;
 }
 
+.gauge-stylus {
+    align-self: center;
+    background-color:#2B0AC5;
+    border-radius:90px 90px 90px 90px;
+    display: flex;
+    height:40px;
+    margin:0 auto;
+    position: relative;
+    width:40px;
+}
+
 .number-right {
     font-family: 'robotoblack';
-    margin-right:7%;
+    margin-right:6%;
 }
 
 .gauge-stylus:before {
+   align-self: center;
    content:"";
-   position: absolute;
-   right: 100%;
+   display:flex;
+   position: relative;
+   right: 215%;
    width: 0;
    height: 0;
    border-top: 13px solid transparent;
-   border-right: 95px solid white;
+   border-right: 95px solid #2B0AC5;
    border-bottom: 13px solid transparent;
 }
 
 .sales-breakdown-header {
+    color:#2B0AC5;
     font-family: 'robotoblack';
     margin:10px 0;
 }
@@ -178,7 +183,7 @@ h1, h2, h3, h4 {
     flex-direction:row;
     display:flex;
     justify-content: space-between;
-    padding: 25px 15%;
+    padding: 5px 15% 25px 15%;
 }
 
 .facebook-column {
