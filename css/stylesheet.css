@@ -105,13 +105,13 @@ h1, h2, h3, h4 {
 
 .total-calls-placeholder {
     color:white;
-    margin:5%;
+    margin:0 5% 0 5%;
     width:480px;
 }
 
 .total-sales-placeholder {
     color:white;
-    margin:5%;
+    margin:0 5% 35px 5%;
     width:480px;
 }
 
@@ -133,6 +133,12 @@ h1, h2, h3, h4 {
     margin:0 auto;
 }
 
+.gauge-bottom-row {
+    display:flex;
+    flex-direction:row;
+    margin-top:10px;
+}
+
 .gauge-stylus {
     background-color:white;
     border-radius:90px 90px 90px 90px;
@@ -142,6 +148,16 @@ h1, h2, h3, h4 {
     width:25px;
 }
 
+.number-left {
+    font-family: 'robotoblack';
+    margin-left: 9%;
+}
+
+.number-right {
+    font-family: 'robotoblack';
+    margin-right:7%;
+}
+
 .gauge-stylus:before {
    content:"";
    position: absolute;
@@ -149,7 +165,7 @@ h1, h2, h3, h4 {
    width: 0;
    height: 0;
    border-top: 13px solid transparent;
-   border-right: 105px solid white;
+   border-right: 95px solid white;
    border-bottom: 13px solid transparent;
 }
 
