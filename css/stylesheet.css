@@ -1,5 +1,5 @@
 body {
-    color: #2c3e50;
+    color: #2B0AC5;
     font-family: 'robotolight';
     font-size:16px;
     margin:5% 10%;
@@ -38,6 +38,7 @@ h1, h2, h3, h4 {
 }
 
 .revenue {
+    color:#636466;
     display:block;
     padding:15px 0;
 }
@@ -56,6 +57,7 @@ h1, h2, h3, h4 {
 }
 
 .happiness {
+    color:#636466;
     display:block;
     padding:15px 0;
 }
@@ -96,6 +98,7 @@ h1, h2, h3, h4 {
 }
 
 .important-dates {
+    color:#636466;
     height:300px;
 }
 
@@ -183,6 +186,7 @@ h1, h2, h3, h4 {
 }
 
 .facebook-column {
+    color:#636466;
     display:flex;
     flex-direction:column;
 }
@@ -201,6 +205,7 @@ h1, h2, h3, h4 {
 }
 
 .organic-column {
+    color:#636466;
     display:flex;
     flex-direction:column;
 }
@@ -219,6 +224,7 @@ h1, h2, h3, h4 {
 }
 
 .promo-column {
+    color:#636466;
     display:flex;
     flex-direction:column;
 }
@@ -237,6 +243,7 @@ h1, h2, h3, h4 {
 }
 
 .modal-column {
+    color:#636466;
     display:flex;
     flex-direction:column;
 }
@@ -262,6 +269,7 @@ h1, h2, h3, h4 {
     width:20%;
 }
 .coaching-students {
+    color:#636466;
     display:block;
     float:left;
     padding:15px 0;
@@ -281,6 +289,7 @@ h1, h2, h3, h4 {
 }
 
 .coach-load {
+    color:#636466;
     display:block;
     float:left;
     padding:15px 0;
@@ -300,6 +309,7 @@ h1, h2, h3, h4 {
 }
 
 .effort-grade {
+    color:#636466;
     display:block;
     float:left;
     padding:15px 0;
