@@ -1,11 +1,11 @@
 body {
-    color: #2c3e50;
+    color: #2B0AC5;
     font-family: 'robotolight';
     font-size:16px;
     margin:5% 10%;
 }
 
-h1, h2, h3 {
+h1, h2, h3, h4 {
     text-align:center;
     margin:0 0 15px 0;
 }
@@ -26,9 +26,7 @@ h1, h2, h3 {
 }
 
 .testive-logo {
-    background-color: white;
-    border:solid 1px #2c3e50;
-    color: #2c3e50;
+    background-color: #f58b1e;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -40,14 +38,14 @@ h1, h2, h3 {
 }
 
 .revenue {
+    color:#636466;
     display:block;
     padding:15px 0;
 }
 
 .revenue-numbers {
-    background-color: white;
-    border:solid 1px #2c3e50;
-    color: #2c3e50;
+    color:#2B0AC5;
+    background-color:#CED8E2;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -59,14 +57,14 @@ h1, h2, h3 {
 }
 
 .happiness {
+    color:#636466;
     display:block;
     padding:15px 0;
 }
 
 .happiness-numbers {
-    background-color: white;
-    border:solid 1px #2c3e50;
-    color: #2c3e50;
+    color:#2B0AC5;
+    background-color:#CED8E2;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -85,6 +83,13 @@ h1, h2, h3 {
     width:60%;
 }
 
+.calls-header {
+    background-color: #1abc9c;
+    color:#2B0AC5;
+    font-family: 'robotoblack';
+    padding:10px 0;
+}
+
 .middle-column {
     background-color: #1abc9c;
     display:flex;
@@ -93,18 +98,19 @@ h1, h2, h3 {
 }
 
 .important-dates {
+    color:#636466;
     height:300px;
 }
 
 .total-calls-placeholder {
     color:white;
-    margin:5%;
+    margin:0 5% 0 5%;
     width:480px;
 }
 
 .total-sales-placeholder {
     color:white;
-    margin:5%;
+    margin:0 5% 35px 5%;
     width:480px;
 }
 
@@ -126,35 +132,61 @@ h1, h2, h3 {
     margin:0 auto;
 }
 
+.gauge-bottom-row {
+    align-items: center;
+    display:flex;
+    flex-direction:row;
+}
+
+.number-left {
+    font-family: 'robotoblack';
+    margin-left: 9%;
+}
+
 .gauge-stylus {
-    background-color:white;
+    align-self: center;
+    background-color:#2B0AC5;
     border-radius:90px 90px 90px 90px;
-    height:25px;
+    display: flex;
+    height:40px;
     margin:0 auto;
     position: relative;
-    width:25px;
+    width:40px;
+}
+
+.number-right {
+    font-family: 'robotoblack';
+    margin-right:6%;
 }
 
 .gauge-stylus:before {
+   align-self: center;
    content:"";
-   position: absolute;
-   right: 100%;
+   display:flex;
+   position: relative;
+   right: 215%;
    width: 0;
    height: 0;
    border-top: 13px solid transparent;
-   border-right: 105px solid white;
+   border-right: 95px solid #2B0AC5;
    border-bottom: 13px solid transparent;
 }
 
+.sales-breakdown-header {
+    color:#2B0AC5;
+    font-family: 'robotoblack';
+    margin:10px 0;
+}
 
 .sales-breakdown {
     flex-direction:row;
     display:flex;
     justify-content: space-between;
-    padding: 25px 15%;
+    padding: 5px 15% 25px 15%;
 }
 
 .facebook-column {
+    color:#636466;
     display:flex;
     flex-direction:column;
 }
@@ -173,6 +205,7 @@ h1, h2, h3 {
 }
 
 .organic-column {
+    color:#636466;
     display:flex;
     flex-direction:column;
 }
@@ -191,6 +224,7 @@ h1, h2, h3 {
 }
 
 .promo-column {
+    color:#636466;
     display:flex;
     flex-direction:column;
 }
@@ -209,6 +243,7 @@ h1, h2, h3 {
 }
 
 .modal-column {
+    color:#636466;
     display:flex;
     flex-direction:column;
 }
@@ -234,15 +269,15 @@ h1, h2, h3 {
     width:20%;
 }
 .coaching-students {
+    color:#636466;
     display:block;
     float:left;
     padding:15px 0;
 }
 
 .coaching-students-numbers {
-    background-color: white;
-    border:solid 1px #2c3e50;
-    color: #2c3e50;
+    background-color:#CED8E2;
+    color:#2B0AC5;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -254,15 +289,15 @@ h1, h2, h3 {
 }
 
 .coach-load {
+    color:#636466;
     display:block;
     float:left;
     padding:15px 0;
 }
 
 .coach-load-numbers {
-    background-color: white;
-    border:solid 1px #2c3e50;
-    color: #2c3e50;
+    background-color:#CED8E2;
+    color:#2B0AC5;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -274,15 +309,15 @@ h1, h2, h3 {
 }
 
 .effort-grade {
+    color:#636466;
     display:block;
     float:left;
     padding:15px 0;
 }
 
 .effort-grade-numbers {
-    background-color: white;
-    border:solid 1px #2c3e50;
-    color: #2c3e50;
+    background-color:#CED8E2;
+    color:#2B0AC5;
     display: flex;
     justify-content: center;
     align-items: center;
