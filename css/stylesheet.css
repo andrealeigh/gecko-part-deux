@@ -26,9 +26,7 @@ h1, h2, h3, h4 {
 }
 
 .testive-logo {
-    background-color: white;
-    border:solid 1px #2c3e50;
-    color: #2c3e50;
+    background-color: #f58b1e;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -45,9 +43,8 @@ h1, h2, h3, h4 {
 }
 
 .revenue-numbers {
-    background-color: white;
-    border:solid 1px #2c3e50;
-    color: #2c3e50;
+    color:#2B0AC5;
+    background-color:#CED8E2;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -64,9 +61,8 @@ h1, h2, h3, h4 {
 }
 
 .happiness-numbers {
-    background-color: white;
-    border:solid 1px #2c3e50;
-    color: #2c3e50;
+    color:#2B0AC5;
+    background-color:#CED8E2;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -272,9 +268,8 @@ h1, h2, h3, h4 {
 }
 
 .coaching-students-numbers {
-    background-color: white;
-    border:solid 1px #2c3e50;
-    color: #2c3e50;
+    background-color:#CED8E2;
+    color:#2B0AC5;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -292,9 +287,8 @@ h1, h2, h3, h4 {
 }
 
 .coach-load-numbers {
-    background-color: white;
-    border:solid 1px #2c3e50;
-    color: #2c3e50;
+    background-color:#CED8E2;
+    color:#2B0AC5;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -312,9 +306,8 @@ h1, h2, h3, h4 {
 }
 
 .effort-grade-numbers {
-    background-color: white;
-    border:solid 1px #2c3e50;
-    color: #2c3e50;
+    background-color:#CED8E2;
+    color:#2B0AC5;
     display: flex;
     justify-content: center;
     align-items: center;
